@@ -1,0 +1,10 @@
+query Viewer {
+    viewer {
+        name
+        bio
+        login
+        status {
+            message
+        }
+    }
+}
